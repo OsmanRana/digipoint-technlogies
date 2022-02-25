@@ -20,6 +20,7 @@ body {
 }
 .nav-link {
   text-decoration: "none";
+  font-size: 16px;
   color: #29ffc6;
 }
 .nav-link:hover {
@@ -28,7 +29,7 @@ body {
 .main {
   max-width: 100%;
   min-height: 649px;
-  max-height: 100vh;
+  max-height: "100vh";
   background: linear-gradient(132.12deg, #127073 0%, #2caa67 97.56%);
   border-radius: 50px 10px;
   margin-left: 125px;
@@ -45,12 +46,38 @@ body {
   color: #ffffff;
 }
 .bottom-box {
-  width: 520px;
-  height: 67px;
+  max-width: 100%;
+  min-height: 67px;
+  max-height: "100vh";
   background: #17404b;
   border-radius: 50px 10px;
 }
-.btn{
-    background-color: #1b6d6f;
-    border-radius: 50px 10px;
+.btn {
+  background-color: #1b6d6f;
+  border-radius: 50px 0px;
+}
+
+.image-1 {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 50px 10px;
+}
+.image-2 {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 50px 10px;
+}
+.image-3 {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 50px 10px;
+}
+.image-4 {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-radius: 50px 10px;
 }
