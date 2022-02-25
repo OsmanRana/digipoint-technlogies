@@ -42,13 +42,15 @@ body {
 .left-section-text {
   font-size: 14px;
   line-height: 21px;
-  font-weight: 400;
   color: #ffffff;
 }
 .bottom-box {
   width: 520px;
   height: 67px;
-  background: #110b35;
-  opacity: 0.6;
+  background: #17404b;
   border-radius: 50px 10px;
+}
+.btn{
+    background-color: #1b6d6f;
+    border-radius: 50px 10px;
 }
