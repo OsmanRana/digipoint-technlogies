@@ -59,25 +59,33 @@ body {
 
 .image-1 {
   position: relative;
-  margin-left: 25%;
+  margin-left: 35%;
   margin-top: 5%;
+  height: 50%;
+  width: 35%;
   border-radius: 50px 10px;
 }
 .image-2 {
   position: relative;
-  margin-left: 25%;
-  margin-top: 5%;
+  margin-left: 10%;
+  margin-top: -25%;
+  height: 50%;
+  width: 35%;
   border-radius: 50px 10px;
 }
 .image-3 {
   position: relative;
   margin-left: 25%;
-  margin-top: 5%;
+  margin-top: -30%;
+  height: 50%;
+  width: 35%;
   border-radius: 50px 10px;
 }
 .image-4 {
   position: relative;
-  margin-left: 25%;
-  margin-top: 5%;
+  margin-left: 50%;
+  margin-top: -70%;
+  height: 50%;
+  width: 35%;
   border-radius: 50px 10px;
 }
