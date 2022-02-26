@@ -55,7 +55,6 @@ body {
 .bottom-box {
   max-width: 100%;
   min-height: 67px;
-  max-height: 100vh;
   background: #17404b;
   border-radius: 50px 10px;
 }
