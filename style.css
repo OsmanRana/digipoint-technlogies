@@ -2,10 +2,15 @@
 body {
   background-color: #110b35;
   font-family: "Poppins", "Comfortaa", sans-serif, cursive;
+  margin-left: 5%;
+}
+.header {
+  margin-right: 15%;
 }
 .navbar-toggler {
   color: #38ef7d;
 }
+
 .logo {
   font-family: "Comfortaa";
   font-size: 42px;
@@ -21,12 +26,14 @@ body {
 .nav-link {
   text-decoration: "none";
   font-size: 16px;
-  color: #29ffc6;
+  color: #29ffc6 !important;
 }
 .nav-link:hover {
-  color: #0cebeb;
+  color: #0cebeb !important;
 }
+
 .main {
+  margin-right: 15%;
   max-width: 100%;
   min-height: 649px;
   max-height: "100vh";
@@ -47,7 +54,7 @@ body {
 }
 .bottom-box {
   max-width: 100%;
-  min-height: 67px;
+  height: 67px;
   max-height: "100vh";
   background: #17404b;
   border-radius: 50px 10px;
@@ -88,4 +95,19 @@ body {
   height: 50%;
   width: 35%;
   border-radius: 50px 10px;
+}
+.footer {
+  margin-right: 3%;
+}
+.address-line {
+  color: #6ca999;
+  opacity: 50%;
+}
+.footer-ul {
+  list-style-type: none;
+}
+.footer-anchor {
+  text-decoration: none;
+  font-size: 14px;
+  color: #29ffc6;
 }
