@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* General Edits */
 body {
   background-color: #110b35;
   font-family: "Poppins", "Comfortaa", sans-serif, cursive;
   margin-left: 5%;
 }
+/* Navigation */
 .header {
   margin-right: 15%;
 }
@@ -31,7 +33,7 @@ body {
 .nav-link:hover {
   color: #0cebeb !important;
 }
-
+/* Main Body */
 .main {
   margin-right: 15%;
   max-width: 100%;
@@ -95,6 +97,7 @@ body {
   width: 35%;
   border-radius: 50px 10px;
 }
+/* Footer */
 .footer {
   margin-right: 3%;
 }
@@ -114,7 +117,7 @@ body {
   background-color: #2af7b8;
   color: #17404b;
 }
-
+/* Responsiveness */
 @media screen and (min-width: 1301px) and (max-width: 1359px) {
   .bottom-box {
     padding: 25px;
