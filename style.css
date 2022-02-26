@@ -36,14 +36,13 @@ body {
   margin-right: 15%;
   max-width: 100%;
   min-height: 649px;
-  max-height: "100vh";
   background: linear-gradient(132.12deg, #127073 0%, #2caa67 97.56%);
   border-radius: 50px 10px;
   margin-left: 125px;
 }
 .left-section-title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 72px;
   color: #ffffff;
 }
@@ -51,6 +50,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
+  word-break: break-all;
 }
 .bottom-box {
   max-width: 100%;
@@ -113,4 +113,213 @@ body {
 #btn-footer {
   background-color: #2af7b8;
   color: #17404b;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1449px) {
+  .image-1 {
+    position: relative;
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 5%;
+    margin-top: -80%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-3 {
+    position: relative;
+    margin-left: 20%;
+    margin-top: -50%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 45%;
+    margin-top: -170%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .section-right {
+    padding: 50px;
+  }
+  .image-1 {
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 0;
+    margin-top: -10%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-3 {
+    position: relative;
+    margin-right: -5%;
+    margin-top: -30%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 40%;
+    margin-top: -90%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .bottm-line {
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  .bottom-box {
+    padding: 25px;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .image-1 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px 10px;
+
+    padding: 25px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px 10px;
+
+    padding: 25px;
+  }
+  .image-3 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px 10px;
+    padding: 25px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 50px 10px;
+    padding: 25px;
+  }
+  .main {
+    margin-right: 0;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  body {
+    margin-left: 0;
+  }
+  .bottom-box {
+    padding: 25px;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  .bottm-line {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  .footer {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .image-1 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px 10px;
+
+    padding: 25px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px 10px;
+
+    padding: 25px;
+  }
+  .image-3 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px 10px;
+    padding: 25px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px 10px;
+    padding: 25px;
+  }
+  .main {
+    margin-right: 0;
+    max-width: 100%;
+    height: 1500px;
+    margin-left: 0px;
+  }
+  body {
+    margin-left: 0;
+  }
+  .bottom-box {
+    padding: 25px;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  .bottm-line {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  .footer {
+    margin-left: 5%;
+  }
 }
