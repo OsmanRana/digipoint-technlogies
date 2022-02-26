@@ -206,9 +206,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-2 {
     position: relative;
@@ -216,9 +214,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-3 {
     position: relative;
@@ -226,8 +222,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-4 {
     position: relative;
@@ -235,8 +230,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .main {
     margin-right: 0;
@@ -247,6 +241,7 @@ body {
     margin-left: 0;
   }
   .bottom-box {
+    margin-bottom: 25px;
     padding: 25px;
   }
   .btn {
@@ -261,12 +256,24 @@ body {
   }
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
+  .header {
+    margin-right: 0;
+  }
+  .left-section {
+    padding: 15px !important;
+  }
+  .left-section-title {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffffff;
+  }
   .image-1 {
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    width: 100%;
+    width: 35%;
     height: 50%;
     border-radius: 50px 10px;
 
@@ -276,7 +283,7 @@ body {
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    width: 100%;
+    width: 50%;
     height: 50%;
     border-radius: 50px 10px;
 
@@ -286,7 +293,7 @@ body {
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    width: 100%;
+    width: 50%;
     height: 50%;
     border-radius: 50px 10px;
     padding: 25px;
@@ -295,7 +302,7 @@ body {
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    width: 100%;
+    width: 50%;
     height: 50%;
     border-radius: 50px 10px;
     padding: 25px;
@@ -303,7 +310,6 @@ body {
   .main {
     margin-right: 0;
     max-width: 100%;
-    height: 1500px;
     margin-left: 0px;
   }
   body {
@@ -322,4 +328,4 @@ body {
   .footer {
     margin-left: 5%;
   }
-}
+} */
