@@ -115,36 +115,113 @@ body {
   color: #17404b;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1449px) {
+@media screen and (min-width: 1301px) and (max-width: 1359px) {
+  .bottom-box {
+    padding: 25px;
+  }
   .image-1 {
     position: relative;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 5%;
-    height: 50%;
+    height: 35%;
     width: 50%;
     border-radius: 50px 10px;
   }
   .image-2 {
     position: relative;
-    margin-left: 5%;
-    margin-top: -80%;
-    height: 50%;
+    margin-left: 0%;
+    margin-top: -25%;
+    height: 35%;
     width: 50%;
     border-radius: 50px 10px;
   }
   .image-3 {
     position: relative;
-    margin-left: 20%;
-    margin-top: -50%;
-    height: 50%;
+    margin-left: -25%;
+    margin-top: -10%;
+    height: 35%;
     width: 50%;
     border-radius: 50px 10px;
   }
   .image-4 {
     position: relative;
-    margin-left: 45%;
-    margin-top: -170%;
-    height: 50%;
+    margin-left: 40%;
+    margin-top: -100%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+}
+@media screen and (min-width: 1176px) and (max-width: 1300px) {
+  .bottom-box {
+    padding: 25px;
+  }
+  .image-1 {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 0%;
+    margin-top: -25%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-3 {
+    position: relative;
+    margin-left: -25%;
+    margin-top: -10%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 40%;
+    margin-top: -125%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1175px) {
+  .bottom-box {
+    padding: 25px;
+  }
+  .image-1 {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-2 {
+    position: relative;
+    margin-left: 0%;
+    margin-top: -50%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-3 {
+    position: relative;
+    margin-left: -25%;
+    margin-top: -10%;
+    height: 35%;
+    width: 50%;
+    border-radius: 50px 10px;
+  }
+  .image-4 {
+    position: relative;
+    margin-left: 40%;
+    margin-top: -150%;
+    height: 35%;
     width: 50%;
     border-radius: 50px 10px;
   }
@@ -256,7 +333,7 @@ body {
   }
 }
 
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .header {
     margin-right: 0;
   }
@@ -273,11 +350,9 @@ body {
     position: relative;
     margin-left: 0;
     margin-top: 0;
-    width: 35%;
+    width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-2 {
     position: relative;
@@ -285,9 +360,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-3 {
     position: relative;
@@ -295,8 +368,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .image-4 {
     position: relative;
@@ -304,8 +376,7 @@ body {
     margin-top: 0;
     width: 50%;
     height: 50%;
-    border-radius: 50px 10px;
-    padding: 25px;
+    border-radius: 50px 50px;
   }
   .main {
     margin-right: 0;
@@ -328,4 +399,4 @@ body {
   .footer {
     margin-left: 5%;
   }
-} */
+}
